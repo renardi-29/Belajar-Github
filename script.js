@@ -1,3 +1,3 @@
 function sayHello() {
-  alert("Hello from GitHub!");
+  alert("Hello from Rian's Git journey! 🚀");
 }

@@ -4,34 +4,241 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar GitHub</title>
+    <meta name="description" content="Rian's journey learning Git and GitHub.">
+
+    <title>Rian | Belajar Git & GitHub</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Belajar Git dan GitHub</h1>
-    <p>Saya sedang belajar Git dan GitHub.</p>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Rian<span>.dev</span></a>
 
-    <button onclick="sayHello()">Klik Saya</button>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#learning">Learning</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Hero -->
+    <main>
+
+        <section class="hero">
+            <div class="container hero-content">
+
+                <p class="badge">MY GIT JOURNEY</p>
+
+                <h1>
+                    Belajar Git & GitHub
+                    <span>secara bertahap.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Sebuah project kecil untuk mendokumentasikan perjalanan
+                    saya mempelajari Git, GitHub, dan workflow development.
+                </p>
+
+                <button onclick="sayHello()" class="primary-button">
+                    Say Hello 👋
+                </button>
+
+            </div>
+        </section>
+
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container">
+
+                <p class="section-label">01 — ABOUT</p>
+
+                <h2>About Me</h2>
+
+                <p class="section-description">
+                    Ini adalah halaman About yang sedang saya kerjakan
+                    sebagai bagian dari proses belajar Git dan GitHub.
+                    Project ini menjadi tempat saya mencoba berbagai
+                    konsep Git secara langsung.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- Git Learning -->
+        <section id="learning" class="section section-dark">
+            <div class="container">
+
+                <p class="section-label">02 — LEARNING</p>
+
+                <h2>Git Learning</h2>
+
+                <p class="section-description">
+                    Saya sedang mempelajari Git dan GitHub secara bertahap,
+                    mulai dari commit sederhana hingga branch, merge,
+                    pull request, dan workflow kolaborasi.
+                </p>
+
+
+                <div class="card-grid">
+
+                    <div class="card">
+                        <div class="card-number">01</div>
+                        <h3>Commit</h3>
+                        <p>
+                            Menyimpan perubahan project sebagai bagian
+                            dari riwayat pengembangan.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-number">02</div>
+                        <h3>Branch</h3>
+                        <p>
+                            Membuat ruang kerja terpisah untuk
+                            mengembangkan sebuah fitur.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-number">03</div>
+                        <h3>Merge</h3>
+                        <p>
+                            Menggabungkan perubahan dari branch
+                            ke branch lainnya.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Git Journey -->
+        <section class="section">
+            <div class="container">
+
+                <p class="section-label">03 — JOURNEY</p>
+
+                <h2>My Git Journey</h2>
+
+                <p class="section-description">
+                    Project ini adalah latihan pertama saya menggunakan
+                    Git dan GitHub. Setiap commit menjadi bagian dari
+                    perjalanan belajar saya.
+                </p>
+
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div>
+                            <h3>Initial Commit</h3>
+                            <p>
+                                Membuat project pertama dan mulai
+                                menggunakan Git.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div>
+                            <h3>Branch & Merge</h3>
+                            <p>
+                                Belajar membuat branch, melakukan merge,
+                                dan menyelesaikan merge conflict.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div>
+                            <h3>Pull Request</h3>
+                            <p>
+                                Mencoba workflow GitHub dengan membuat
+                                feature branch dan pull request.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Skills -->
+        <section id="skills" class="section section-dark">
+            <div class="container">
+
+                <p class="section-label">04 — SKILLS</p>
+
+                <h2>My Skills</h2>
+
+                <p class="section-description">
+                    Teknologi yang sedang saya gunakan dan pelajari.
+                </p>
+
+
+                <div class="skills">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="section contact">
+            <div class="container">
+
+                <p class="section-label">05 — CONTACT</p>
+
+                <h2>Let's Connect</h2>
+
+                <p class="section-description">
+                    Ingin berdiskusi atau sekadar menyapa?
+                    Silakan hubungi saya melalui email.
+                </p>
+
+                <a href="mailto:rinyuurin29@gmail.com" class="email-link">
+                    rinyuurin29@gmail.com
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2026 Rian. Built while learning Git & GitHub.
+        </p>
+    </footer>
+
 
     <script src="script.js"></script>
 
-    <section>
-        <h2>About Me</h2>
-        <p>Ini adalah halaman About yang sedang saya kerjakan di branch fitur-about.</p>
-    </section>
-    <section>
-        <h2>Git Learning</h2>
-        <p>Saya sedang belajar Git dan GitHub secara bertahap.</p>
-        <h2>My Git Journey</h2>
-        <p>Ini adalah project latihan pertama saya menggunakan Git.</p>
-    </section>
-
-    <section>
-        <h2>Contact</h2>
-        <p>Email: rinyuurin29@gmail.com</p>
-    </section>
 </body>
 
 </html>
